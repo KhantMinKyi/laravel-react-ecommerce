@@ -1,0 +1,2 @@
+primary = #A7C61B
+primary : hover = #87A016
