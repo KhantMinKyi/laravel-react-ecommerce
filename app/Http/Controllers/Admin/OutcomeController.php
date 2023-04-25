@@ -17,7 +17,7 @@ class OutcomeController extends Controller
     public function index()
     {
         $outcomes = Outcome::latest()->paginate(10);
-        $today_outcome = Outcome::whereDay('date',Carbon::now())->sum('amount');
+        $today_outcome = Outcome::where('date',Carbon::now())->sum('amount');
         $date = Carbon::now();
 
         if($date = request()->date){
