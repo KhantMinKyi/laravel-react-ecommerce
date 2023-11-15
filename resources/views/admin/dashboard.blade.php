@@ -120,7 +120,7 @@
                     <ul class="list-group">
                         @foreach ($suppliers as $supplier)
                             <li class="list-group-item d-flex justify-content-between align-items-center">
-                                <img src={{ $supplier->img_url }} width="50px">
+                                <img src="{{ asset('/images/' . $supplier->image) }}" alt="" width="50px">
                                 <span><b>{{ $supplier->name }}</b></span>
                                 <span>{{ $supplier->created_at }}</span>
                             </li>

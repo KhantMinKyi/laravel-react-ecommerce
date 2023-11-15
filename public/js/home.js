@@ -4404,7 +4404,7 @@ function Home() {
             className: "row text-center ms-4",
             children: randomProduct.map(function (d) {
               return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
-                className: "col-md-6 col-lg-3",
+                className: "col-md-6 col-lg-4",
                 children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("a", {
                   href: "/product/".concat(d.slug),
                   children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("div", {

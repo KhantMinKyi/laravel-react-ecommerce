@@ -106,7 +106,7 @@ export default function Home() {
                                 {/* Top Sale Products Loops */}
                                 {randomProduct.map((d) => (
                                     <div
-                                        className="col-md-6 col-lg-3"
+                                        className="col-md-6 col-lg-4"
                                         key={d.slug}
                                     >
                                         <a href={`/product/${d.slug}`}>

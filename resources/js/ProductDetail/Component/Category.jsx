@@ -10,7 +10,7 @@ function Category({ category }) {
                 {category.map((d) => (
                     <React.Fragment key={d.slug}>
                         <div className="col-sm-9">
-                            <a href={`/product?category=${d.slug}`}>
+                            <a href={`/products?category=${d.slug}`}>
                                 <img
                                     src={d.img_url}
                                     className="avatar avatar-md m-2"

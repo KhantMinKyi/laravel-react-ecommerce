@@ -74,7 +74,7 @@
                                         href={{ url('/products') }} tabindex="-1" aria-disabled="true">
                                         {{ __('site.nav_products') }}</a>
                                 </li>
-                                <li class="nav-item dropdown">
+                                {{-- <li class="nav-item dropdown">
                                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown"
                                         role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                         Categories
@@ -101,7 +101,7 @@
                                         </li>
                                         <li><a class="dropdown-item" href="#">Something else here</a></li>
                                     </ul>
-                                </li>
+                                </li> --}}
                                 <li class="nav-item">
                                     <a class="nav-link " href="{{ url('/about') }}" tabindex="-1"
                                         aria-disabled="true">{{ __('site.nav_aboutUs') }}</a>

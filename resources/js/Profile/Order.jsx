@@ -36,7 +36,7 @@ function Order() {
         <>
             {loader && <Loader />}
             {!loader && (
-                <div className="col-sm col-md-6 offset-md-3">
+                <div className="col-sm col-md-8 offset-md-2">
                     <div className="cart mt-4">
                         <div className="cart-header bg-dark rounded-top pt-3 ps-3">
                             <div className="row">
@@ -46,7 +46,7 @@ function Order() {
                                 <div className="col-md-6">
                                     <input
                                         type="date"
-                                        className="btn btn-danger"
+                                        className="btn btn-secondary"
                                         id="date"
                                     />
                                     <button

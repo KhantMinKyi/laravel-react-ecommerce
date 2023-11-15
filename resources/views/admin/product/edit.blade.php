@@ -110,7 +110,7 @@
                         @enderror
                     </div>
                     <div class="form-group">
-                        <label for="" class="text-sm text-dark">Discount Price </label>
+                        <label for="" class="text-sm text-dark">No Discount Price </label>
                         <input type="number" name="discount_price" class="form-control" id=""
                             placeholder="Discount Price" value="{{ $product->discount_price }}"
                             @error('discount_price')
