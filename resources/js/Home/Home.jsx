@@ -110,7 +110,7 @@ export default function Home() {
                                         key={d.slug}
                                     >
                                         <a href={`/product/${d.slug}`}>
-                                            <div className=" border rounded">
+                                            <div className=" border rounded mb-4">
                                                 <img
                                                     src={d.img_url}
                                                     style={{ height: "180px" }}
@@ -238,14 +238,6 @@ export default function Home() {
                                                         <b className="text-dark">
                                                             {d.sale_price} Ks
                                                         </b>
-                                                    </p>
-
-                                                    <p>
-                                                        {d.description.substring(
-                                                            0,
-                                                            25
-                                                        )}
-                                                        ...
                                                     </p>
                                                 </div>
                                             </div>

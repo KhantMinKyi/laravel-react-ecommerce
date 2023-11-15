@@ -4408,7 +4408,7 @@ function Home() {
                 children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("a", {
                   href: "/product/".concat(d.slug),
                   children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("div", {
-                    className: " border rounded",
+                    className: " border rounded mb-4",
                     children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("img", {
                       src: d.img_url,
                       style: {
@@ -4560,8 +4560,6 @@ function Home() {
                           className: "text-dark",
                           children: [d.sale_price, " Ks"]
                         })
-                      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("p", {
-                        children: [d.description.substring(0, 25), "..."]
                       })]
                     })]
                   })

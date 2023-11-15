@@ -4297,9 +4297,9 @@ function About() {
             className: "col-sm-12 col-md-6 p-4",
             children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("h4", {
               className: "p-2 text-dark",
-              children: window.locale === "en" ? "Your Brand New Local Ecommerce" : "သင့်ဒေသခံ ecommance site အသစ်"
+              children: window.locale === "en" ? "Your Brand New Local Ecommerce" : "သင့်ဒေသခံ Ecommance site အသစ်"
             }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("span", {
-              children: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+              children: window.locale === "en" ? "Welcome to Area's Shoppy, where shopping meets convenience and style! At Area's Shoppy, we believe in the power of seamless online shopping experiences. Our journey began with a simple yet powerful vision: to create a platform that not only offers a diverse range of products but also redefines the way you shop online." : "ဈေးဝယ်ရာတွင် အဆင်ပြေပြီး စတိုင်လ်ကျသော စျေးဝယ်ခြင်းမှ ကြိုဆိုပါသည်။ Area's Shoppy တွင်၊ ချောမွေ့သောအွန်လိုင်းစျေးဝယ်အတွေ့အကြုံများ၏စွမ်းအားကို ကျွန်ုပ်တို့ယုံကြည်ပါသည်။ ကျွန်ုပ်တို့၏ခရီးသည် ရိုးရှင်းသော်လည်း အားကောင်းသည့်အမြင်ဖြင့် စတင်ခဲ့သည်- ထုတ်ကုန်မျိုးစုံကို ပေးစွမ်းရုံသာမက သင်အွန်လိုင်းတွင် စျေးဝယ်ပုံကိုလည်း ပြန်လည်သတ်မှတ်ပေးသည့် ပလပ်ဖောင်းတစ်ခုကို ဖန်တီးရန်။"
             })]
           }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
             className: "col-sm-12 col-md-5 mt-4",
@@ -4364,7 +4364,7 @@ function About() {
                 className: "card-header text-center text-dark",
                 children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("span", {
                   className: "text-lg font-weight-bold",
-                  children: "Who We Are"
+                  children: "What We Do"
                 }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("i", {
                   className: "fa fa-user mx-2 mt-1"
                 })]
@@ -4403,7 +4403,7 @@ function About() {
                 className: "card-header text-center text-dark",
                 children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("span", {
                   className: "text-lg font-weight-bold",
-                  children: "Who We Are"
+                  children: "Our Mission"
                 }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("i", {
                   className: "fa fa-user mx-2 mt-1"
                 })]
